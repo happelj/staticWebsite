@@ -3,15 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crown & Covenant</title>
+    <title>Westminster Catechizer | Learn the Westminster Shorter Catechism</title>
     <meta
       name="description"
-      content="A modern static website concept shaped by a blue and gold covenantal palette."
+      content="Westminster Catechizer is a lightweight Android app for memorizing the Westminster Shorter Catechism with interactive review, accuracy tracking, study statistics, and multiple user profiles."
     />
+    <meta
+      name="keywords"
+      content="Westminster Catechizer, Westminster Shorter Catechism, catechism app, Reformed app, Christian education, catechism memorization"
+    />
+    <meta name="theme-color" content="#0d2340" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Westminster Catechizer | Learn the Westminster Shorter Catechism"
+    />
+    <meta
+      property="og:description"
+      content="A professional Android study app for learning and memorizing all 107 Westminster Shorter Catechism questions and answers."
+    />
+    <meta property="og:image" content="social-preview.svg" />
+    <meta
+      property="twitter:title"
+      content="Westminster Catechizer | Learn the Westminster Shorter Catechism"
+    />
+    <meta
+      property="twitter:description"
+      content="Interactive catechism study with typing-based review, memorization tracking, statistics, and dark mode."
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="social-preview.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -19,195 +44,352 @@
   <body>
     <div class="page-shell">
       <header class="site-header">
-        <a class="brand" href="#home" aria-label="Crown and Covenant home">
-          <span class="brand-mark">C</span>
+        <a class="brand" href="#top" aria-label="Westminster Catechizer home">
+          <span class="brand-mark">W</span>
           <span class="brand-copy">
-            <strong>Crown & Covenant</strong>
-            <span>For Christ, with clarity and conviction</span>
+            <strong>Westminster Catechizer</strong>
+            <span>Interactive memorization for the Westminster Shorter Catechism</span>
           </span>
         </a>
-
         <nav class="site-nav" aria-label="Primary">
-          <a href="#about">About</a>
-          <a href="#commitments">Commitments</a>
-          <a href="#gather">Gather</a>
-          <a href="#contact">Contact</a>
+          <a href="#features">Features</a>
+          <a href="#catechism">Catechism</a>
+          <a href="#download">Download</a>
+          <a href="#faq">FAQ</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="support.html">Support</a>
         </nav>
-
-        <a class="button button-ghost" href="#contact">Plan a Visit</a>
+        <a class="button button-ghost" href="#download">Get the App</a>
       </header>
 
-      <main id="home">
+      <main id="top">
         <section class="hero section">
-          <div class="hero-copy">
-            <p class="eyebrow">A modern static website concept</p>
-            <h1>Built around a confident blue and gold covenantal palette.</h1>
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">Android app for serious catechetical study</p>
+            <h1>Learn the Westminster Shorter Catechism with structure and clarity.</h1>
             <p class="hero-text">
-              This homepage pairs strong typography, layered gradients, and clear
-              calls to action with a visual direction inspired by the blue and
-              yellow tones associated with the RPCNA's "For Christ, Crown and
-              Covenant" identity.
+              Westminster Catechizer helps individuals and families memorize the
+              Westminster Shorter Catechism through interactive review, precise
+              answer checking, progress tracking, and a study flow built for daily use.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#about">Explore the Vision</a>
-              <a class="button button-secondary" href="#gather">Sunday Details</a>
+              <a class="button button-primary" href="#download">Play Store</a>
+              <a class="button button-secondary" href="#download">Download APK</a>
+            </div>
+            <div class="hero-note">
+              <span>Includes all 107 questions and answers.</span>
+              <span>Built for personal, family, and church use.</span>
             </div>
           </div>
 
-          <aside class="hero-panel" aria-label="Ministry highlights">
-            <div class="panel-badge">Lord's Day</div>
-            <h2>Worship rooted in reverence, truth, and belonging.</h2>
+          <aside class="hero-panel" aria-label="Application overview" data-reveal>
+            <div class="panel-badge">App overview</div>
+            <h2>Thoughtful review tools for careful memorization.</h2>
             <p>
-              Use this layout as a foundation for a church, ministry, or mission
-              website that needs a modern presentation without drifting into a
-              generic startup aesthetic.
+              The app is designed to make catechism study disciplined and accessible,
+              with multiple profiles, progress visibility, and quick movement from one
+              question to the next.
             </p>
             <dl class="stats-grid">
               <div>
-                <dt>Location</dt>
-                <dd>Irwin, Pennsylvania</dd>
+                <dt>Questions</dt>
+                <dd>107 complete entries</dd>
               </div>
               <div>
-                <dt>Service Time</dt>
-                <dd>10:30 AM</dd>
+                <dt>Review mode</dt>
+                <dd>Typing-based answer checks</dd>
               </div>
               <div>
-                <dt>Midweek</dt>
-                <dd>Wednesday Study</dd>
+                <dt>Progress</dt>
+                <dd>Accuracy and memorized tracking</dd>
               </div>
               <div>
-                <dt>Focus</dt>
-                <dd>Word, Worship, Witness</dd>
+                <dt>Designed for</dt>
+                <dd>Study at home or church</dd>
               </div>
             </dl>
           </aside>
         </section>
 
-        <section class="section intro-grid" id="about">
-          <article class="intro-card intro-card-large">
-            <p class="eyebrow">Why this design works</p>
-            <h2>Serious in tone, contemporary in execution.</h2>
+        <section class="section trust-strip" data-reveal>
+          <p>Family-friendly</p>
+          <p>Theologically serious</p>
+          <p>Static and lightweight web presence</p>
+          <p>Clear support and privacy pages</p>
+        </section>
+
+        <section class="section overview-grid" id="features">
+          <article class="intro-card intro-card-large" data-reveal>
+            <p class="eyebrow">Why Westminster Catechizer</p>
+            <h2>A polished study companion for one of the church's foundational teaching tools.</h2>
             <p>
-              The site uses deep blues for structure, warm gold for emphasis, and
-              a restrained neutral background to keep the experience crisp,
-              readable, and distinct. The result feels grounded rather than
-              ornamental.
+              Westminster Catechizer gives catechism study a clear rhythm: read, type,
+              correct, repeat, and measure progress over time. It is designed to feel
+              direct and dependable rather than distracting.
             </p>
           </article>
-
-          <article class="intro-card">
-            <h3>Clear hierarchy</h3>
+          <article class="intro-card" data-reveal>
+            <h3>Fast to use</h3>
             <p>
-              Large headlines, disciplined spacing, and focused sections make the
-              site easy to scan on both desktop and mobile.
+              Move quickly between questions, retry missed answers immediately, and
+              reveal the full answer when needed.
             </p>
           </article>
-
-          <article class="intro-card">
-            <h3>Intentional motion</h3>
+          <article class="intro-card" data-reveal>
+            <h3>Built for consistency</h3>
             <p>
-              Subtle reveal animations and soft gradient layering give the page
-              energy without making it feel noisy.
+              Track study time, accuracy, and memorized questions so steady practice is
+              easier to sustain.
             </p>
           </article>
         </section>
 
-        <section class="section commitments" id="commitments">
-          <div class="section-heading">
-            <p class="eyebrow">Core commitments</p>
-            <h2>A structure that fits church and ministry storytelling.</h2>
+        <section class="section card-section">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Feature set</p>
+            <h2>Practical tools for memorization, review, and long-term retention.</h2>
           </div>
+          <div class="feature-grid">
+            <article class="feature-card" data-reveal>
+              <h3>All 107 questions and answers</h3>
+              <p>
+                The full Westminster Shorter Catechism is available in one place, ready
+                for structured review from the opening question to the final answer.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Interactive memorization</h3>
+              <p>
+                Study actively instead of passively by typing answers and receiving
+                immediate feedback during review.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Accuracy percentage tracking</h3>
+              <p>
+                See how consistently each profile is answering, which helps identify
+                weak points and measure improvement over time.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Multiple user profiles</h3>
+              <p>
+                Keep progress separate for different students, children, or household
+                members without losing continuity.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Study statistics and time tracking</h3>
+              <p>
+                Review total study time, memorized counts, and broader progress data to
+                support regular and accountable practice.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Dark mode and quick navigation</h3>
+              <p>
+                Use the app comfortably in different settings and move between questions
+                without unnecessary friction.
+              </p>
+            </article>
+          </div>
+        </section>
 
-          <div class="commitment-grid">
-            <article class="commitment-card">
+        <section class="section catechism-layout" id="catechism">
+          <article class="content-card" data-reveal>
+            <p class="eyebrow">What is the Westminster Shorter Catechism?</p>
+            <h2>A historic summary of Christian doctrine in question-and-answer form.</h2>
+            <p>
+              The Westminster Shorter Catechism was written in the seventeenth century
+              as a concise teaching instrument for instructing believers in the faith.
+              It addresses God, Scripture, man's chief end, sin, redemption, the moral
+              law, the sacraments, prayer, and the ordinary means of grace.
+            </p>
+            <p>
+              For many Reformed Christians, it remains a trusted guide for family
+              worship, personal discipleship, and the doctrinal instruction of children
+              and new believers.
+            </p>
+          </article>
+          <article class="content-card accent-card" data-reveal>
+            <h3>Why an app for catechism study?</h3>
+            <p>
+              Memorization is strengthened by repetition, testing, and regular review.
+              Westminster Catechizer makes those habits easier to maintain by combining
+              the catechism text with answer checking, progress visibility, and simple
+              navigation on a device many people already use every day.
+            </p>
+          </article>
+        </section>
+
+        <section class="section card-section">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Study flow</p>
+            <h2>Designed to support repeated, meaningful practice.</h2>
+          </div>
+          <div class="process-grid">
+            <article class="process-card" data-reveal>
               <span>01</span>
-              <h3>Worship with gravity</h3>
-              <p>
-                Frame your liturgy, preaching, and psalmody with language that
-                communicates reverence and joy.
-              </p>
+              <h3>Read the question carefully</h3>
+              <p>Work through the catechism one answer at a time with focused attention.</p>
             </article>
-
-            <article class="commitment-card">
+            <article class="process-card" data-reveal>
               <span>02</span>
-              <h3>Teach with depth</h3>
-              <p>
-                Highlight studies, catechesis, and theological resources in a
-                format that remains easy to browse.
-              </p>
+              <h3>Type the answer from memory</h3>
+              <p>Interactive entry turns review into active recall rather than recognition.</p>
             </article>
-
-            <article class="commitment-card">
+            <article class="process-card" data-reveal>
               <span>03</span>
-              <h3>Welcome with clarity</h3>
+              <h3>Retry, reveal, and improve</h3>
+              <p>Use show-answer and retry tools to correct mistakes and strengthen retention.</p>
+            </article>
+            <article class="process-card" data-reveal>
+              <span>04</span>
+              <h3>Watch steady progress accumulate</h3>
+              <p>Follow statistics and memorized-question counts across ongoing study sessions.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section screenshot-section">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Screenshots</p>
+            <h2>Placeholder layouts ready for real app imagery.</h2>
+          </div>
+          <div class="screenshot-grid">
+            <article class="screen-card" data-reveal>
+              <div class="phone-frame">
+                <div class="phone-screen">
+                  <span class="screen-tag">Question View</span>
+                  <strong>Q. What is the chief end of man?</strong>
+                  <p>Focused reading layout for direct memorization work.</p>
+                </div>
+              </div>
+            </article>
+            <article class="screen-card" data-reveal>
+              <div class="phone-frame">
+                <div class="phone-screen">
+                  <span class="screen-tag">Answer Check</span>
+                  <strong>Typing-based review</strong>
+                  <p>Designed for active recall, correction, and repeated practice.</p>
+                </div>
+              </div>
+            </article>
+            <article class="screen-card" data-reveal>
+              <div class="phone-frame">
+                <div class="phone-screen">
+                  <span class="screen-tag">Statistics</span>
+                  <strong>Progress and study time</strong>
+                  <p>Room for screenshots showing profiles, accuracy, and memorized totals.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section download-layout" id="download">
+          <article class="download-card primary-download" data-reveal>
+            <p class="eyebrow">Download</p>
+            <h2>Choose the distribution method that fits your users.</h2>
+            <p>
+              Keep both options visible so visitors can install the app in the way that
+              best fits your release process.
+            </p>
+            <div class="download-actions">
+              <a class="button button-primary" href="#" aria-label="Play Store placeholder link">
+                View on Play Store
+              </a>
+              <a class="button button-secondary" href="#" aria-label="APK placeholder link">
+                Download APK
+              </a>
+            </div>
+          </article>
+          <article class="download-card secondary-download" data-reveal>
+            <h3>Also available</h3>
+            <ul class="link-list">
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="support.html">Support Information</a></li>
+              <li><a href="mailto:support@westminstercatechizer.app">support@westminstercatechizer.app</a></li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="section faq-section" id="faq">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Frequently asked questions</p>
+            <h2>Clear answers for parents, students, and church members.</h2>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item" data-reveal>
+              <summary>Who is Westminster Catechizer for?</summary>
               <p>
-                Give first-time visitors a clear sense of where to go, what to
-                expect, and how to connect before they arrive.
+                The app is suited for individual Christians, families, pastors, teachers,
+                and congregations who want a straightforward way to review and memorize
+                the Westminster Shorter Catechism.
               </p>
-            </article>
+            </details>
+            <details class="faq-item" data-reveal>
+              <summary>Does the app include the full Westminster Shorter Catechism?</summary>
+              <p>
+                Yes. Westminster Catechizer includes all 107 questions and answers so
+                users can work through the entire catechism in one place.
+              </p>
+            </details>
+            <details class="faq-item" data-reveal>
+              <summary>How does the memorization system work?</summary>
+              <p>
+                Users read the question, type the answer from memory, review accuracy,
+                retry difficult material, and reveal the answer when needed before moving
+                on to the next question.
+              </p>
+            </details>
+            <details class="faq-item" data-reveal>
+              <summary>Can more than one person use the app on the same device?</summary>
+              <p>
+                Yes. Multiple user profiles allow different students to keep their own
+                progress, memorized counts, and statistics separate.
+              </p>
+            </details>
+            <details class="faq-item" data-reveal>
+              <summary>Is the app appropriate for children and families?</summary>
+              <p>
+                The app is built with a clean and family-friendly presentation intended
+                to support Christian instruction in homes, schools, and churches.
+              </p>
+            </details>
+            <details class="faq-item" data-reveal>
+              <summary>Where can I find support or privacy details?</summary>
+              <p>
+                Dedicated <a href="support.html">Support</a> and
+                <a href="privacy.html">Privacy Policy</a> pages are included on this site
+                for straightforward access.
+              </p>
+            </details>
           </div>
-        </section>
-
-        <section class="section gather" id="gather">
-          <div class="section-heading">
-            <p class="eyebrow">Gather</p>
-            <h2>Everything a visitor needs in one place.</h2>
-          </div>
-
-          <div class="gather-layout">
-            <article class="visit-card">
-              <h3>Sunday worship</h3>
-              <ul>
-                <li>Morning worship at 10:30 AM</li>
-                <li>Prayer gathering before service</li>
-                <li>Nursery and family seating available</li>
-                <li>Fellowship meal on the first Sunday</li>
-              </ul>
-            </article>
-
-            <article class="timeline-card">
-              <div class="timeline-entry">
-                <strong>9:45 AM</strong>
-                <p>Prayer and welcome for members and guests.</p>
-              </div>
-              <div class="timeline-entry">
-                <strong>10:30 AM</strong>
-                <p>Call to worship, singing, Scripture reading, and sermon.</p>
-              </div>
-              <div class="timeline-entry">
-                <strong>6:00 PM</strong>
-                <p>Evening study focused on doctrine, discipleship, and prayer.</p>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="section quote-band" aria-label="Featured statement">
-          <p>
-            "A thoughtful static site should feel stable, readable, and
-            unmistakably purposeful from the first screen."
-          </p>
         </section>
       </main>
 
-      <footer class="site-footer" id="contact">
+      <footer class="site-footer" data-reveal>
         <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Ready for content, hosting, or further customization.</h2>
+          <p class="eyebrow">Support and information</p>
+          <h2>A lightweight static website with the pages users expect.</h2>
         </div>
-
         <div class="footer-actions">
-          <a class="button button-primary" href="mailto:hello@example.com">Email the Team</a>
-          <a class="button button-secondary" href="tel:+14127311177">Call 412-731-1177</a>
+          <a class="button button-primary" href="privacy.html">Privacy Policy</a>
+          <a class="button button-secondary" href="support.html">Support</a>
         </div>
-
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#catechism">About the Catechism</a>
+          <a href="#download">Download</a>
+          <a href="#faq">FAQ</a>
+          <a href="mailto:support@westminstercatechizer.app">support@westminstercatechizer.app</a>
+        </div>
         <p class="footer-meta">
-          <span id="year"></span> Crown & Covenant. Designed as a clean static
-          website foundation with an RPCNA-inspired blue and gold visual system.
+          <span id="year"></span> Westminster Catechizer. All rights reserved.
         </p>
       </footer>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>

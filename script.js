@@ -1,30 +1,24 @@
-const yearNode = document.getElementById("year");
+const yearNodes = document.querySelectorAll("#year");
 
-if (yearNode) {
-  yearNode.textContent = new Date().getFullYear();
-}
-
-const revealNodes = document.querySelectorAll(
-  ".hero-copy, .hero-panel, .intro-card, .commitment-card, .visit-card, .timeline-card, .quote-band, .site-footer"
-);
-
-revealNodes.forEach((node) => {
-  node.setAttribute("data-reveal", "");
+yearNodes.forEach((node) => {
+  node.textContent = new Date().getFullYear();
 });
+
+const revealNodes = document.querySelectorAll("[data-reveal]");
 
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-          revealObserver.unobserve(entry.target);
+        if (!entry.isIntersecting) {
+          return;
         }
+
+        entry.target.classList.add("is-visible");
+        revealObserver.unobserve(entry.target);
       });
     },
-    {
-      threshold: 0.15,
-    }
+    { threshold: 0.12 }
   );
 
   revealNodes.forEach((node) => {
