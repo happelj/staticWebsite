@@ -715,6 +715,13 @@ img {
   word-break: break-word;
 }
 
+.policy-last-updated {
+  margin: 1rem 0 0;
+  color: var(--slate-600);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
 [data-reveal] {
   opacity: 0;
   transform: translateY(22px);
